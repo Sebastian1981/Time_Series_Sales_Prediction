@@ -130,4 +130,4 @@ dmypy.json
 
 # dont sync the following folders
 /data
-/figures
+/images
