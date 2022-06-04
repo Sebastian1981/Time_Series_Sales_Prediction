@@ -26,14 +26,20 @@ The figure below shows the historical sales from 2013 until July 2015 and the pr
         src="images/results_1.png"
         alt="Fashion MNIST sprite"  width="1000">
   </td></tr>
+    <tr><td align="center">
+    <b>Figure 1. Historical sales data and future sales estimates derived by applying the additive regression model developed by facebook. 
+  </td></tr>
 </table>
 
-Applying facebook-prophet model also gives insight into the trend, the effects of hollidays, the day of the week and the month, as depicted below.
+Applying facebook-prophet model also gives insight into the trend, the effects of hollidays, the day of the week and the month, as depicted below. Please note that these components affect the sales significantly.
 
 <table>
   <tr><td>
     <img 
         src="images/results_2.png"
         alt="Fashion MNIST sprite"  width="1000">
+  </td></tr>
+  <tr><td align="center">
+    <b>Figure 2. Trend and effect sizes for holidays, weekdays and months in units of sales estimated by facebook´s prophet additive regression model. 
   </td></tr>
 </table>
