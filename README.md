@@ -22,7 +22,20 @@ The figure below shows the historical sales from 2013 until July 2015 and the 14
         alt="Fashion MNIST sprite"  width="1000">
   </td></tr>
     <tr><td align="center">
-    <b>Figure 1. Historical sales data and future sales estimates derived by applying the additive regression model developed by facebook. 
+    <b>Figure 1. Historical sales data and future sales estimates derived by applying the an additive regression model combined with deep learning. 
+  </td></tr>
+</table>
+
+## Model Evaluation
+The mean average prediction error is in the range of 4-6 % as depicted below.
+<table>
+  <tr><td>
+    <img 
+        src="images/results_3.png"
+        alt="Fashion MNIST sprite"  width="1000">
+  </td></tr>
+  <tr><td align="center">
+    <b>Figure 2. Cross-validated mean average error (mape). 
   </td></tr>
 </table>
 
@@ -36,7 +49,7 @@ As described above, the neural-prophet model is highly interpretable due to its 
         alt="Fashion MNIST sprite"  width="1000">
   </td></tr>
   <tr><td align="center">
-    <b>Figure 2. Trend and effect sizes for holidays, weekdays and months in units of sales estimated by facebook´s prophet additive regression model. 
+    <b>Figure 2. Additive model components such as trend, saisonality, past sales and promo. 
   </td></tr>
 </table>
 
