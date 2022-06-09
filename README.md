@@ -2,7 +2,7 @@
 
 ## Goal of this project
 The intention of this project is to test the feasibility of applying the novel and already well known facebook package "neural prophet" to accurately forecast future sales based on historical multivariate time series data. The beauty of this approach is the combination of simple autoregression with a deep neural network while still yielding interpretable forecasts.
-## Intuition behind Facebook´s prophet and neural prophet approach
+## Background
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles missing data and outliers well.\
 NeuralProphet has a number of added features with respect to original Prophet which are:
 - Gradient Descent for optimisation via using PyTorch as the backend
@@ -11,6 +11,11 @@ NeuralProphet has a number of added features with respect to original Prophet wh
 - Configurable non-linear deep layers of the FFNNs
 - Tuneable to specific forecast horizons (greater than 1).
 - Custom losses and metrics
+
+## Setup the Environment using Conda to run the JupyterNotebooks
+- $conda create -n myenv python=3.7.13
+- $conda active myenv
+- $pip install -r requirements.txt
 
 ## Modeling Results
 The figure below shows the historical sales from 2013 until July 2015 and the 14-day ahead forecast. Apparently, there is a good match beetween the forecast (blue curve) and the actual sales not only for the training period (blue dots) but also for the testing period (red dots).
