@@ -27,7 +27,7 @@ The figure below shows the historical sales from 2013 until July 2015 and the 14
         alt="Fashion MNIST sprite"  width="1000">
   </td></tr>
     <tr><td align="center">
-    <b>Figure 1. Historical sales data and future sales estimates derived by applying the an additive regression model combined with deep learning. 
+    <b>Figure 1. Historical sales data and future sales estimates derived by applying an additive regression model combined with deep learning. 
   </td></tr>
 </table>
 
