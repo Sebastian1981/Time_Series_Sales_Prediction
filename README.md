@@ -26,11 +26,8 @@ The figure below shows the historical sales from 2013 until July 2015 and the 14
   </td></tr>
 </table>
 
-Applying facebook-prophet model also gives insight into the trend, the effects of hollidays, the day of the week and the month, as depicted below. Please note that these components affect the sales significantly.
-
 ## Model Interpretability
-As described above, the neural-prophet model is highly interpretable due to its component-wise additive nature. The figure below show the different model components and their contribution to the predicted sales. As typicall for time series data, the model detects trends and seasonality components. In addition, it shows that the past sales (i.e. lagged sales) also have a strong predictive power for future sales. Last but not least, the promo-component reveals that promotion can potentially increase sales by more than 1750 sales-units.
-
+As described above, the neural-prophet model is highly interpretable due to its component-wise additive nature. The figure below show the different model components and their contribution to the predicted sales. The model can seperate the trend and weekly and yearly seasonality components well. In addition, it shows that the past sales (i.e. lagged sales) also have a strong predictive power for future sales. Last but not least, the promo-component impressively reveals that promotion can potentially increase sales by more than 1750 sales-units.
 
 <table>
   <tr><td>
@@ -42,3 +39,4 @@ As described above, the neural-prophet model is highly interpretable due to its 
     <b>Figure 2. Trend and effect sizes for holidays, weekdays and months in units of sales estimated by facebook´s prophet additive regression model. 
   </td></tr>
 </table>
+
