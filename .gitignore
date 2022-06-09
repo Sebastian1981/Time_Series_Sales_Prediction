@@ -134,3 +134,6 @@ dmypy.json
 # dont sync dask files
 *.lock
 *.dirlock
+
+# dont sync the imports.py file
+imports.py
